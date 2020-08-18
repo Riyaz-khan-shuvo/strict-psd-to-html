@@ -1,0 +1,328 @@
+/* =-=-=-=-=-=-=- google fonts =-=-=-=-=-=-=-*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap');
+/*
+	font-family: 'Lato', sans-serif;
+	font-family: 'Oswald', sans-serif;
+
+*/
+
+/* =-=-=-=-=-=-=-  common css =-=-=-=-=-=-=-*/
+
+img
+{
+	width: 100%;
+	height: auto;
+}
+body
+{
+	font-family: 'Lato', sans-serif;
+}
+.strict-sec-title
+{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.strict-sec-title h2
+{
+	font-size: 35px;
+	color: #2d3950;
+}
+p
+{
+	color: #999999;
+	font-size: 17px;
+}
+label
+{
+	color: #fff;
+}
+/* =-=-=-=-=-=-=- common css ends =-=-=-=-=-=-=-*/
+/* =-=-=-=-=-=-=- service css start =-=-=-=-=-=-=-*/
+
+.strict-header
+{
+	background: #F6F9F9;
+	padding: 30px;
+}
+.strict-menu
+{	
+
+}
+.strict-menu nav
+{
+	font-family: 'Oswald', sans-serif;
+
+}
+.strict-menu nav ul
+{
+	display: flex;
+	justify-content: flex-end;
+}
+.strict-menu nav ul li
+{
+	list-style-type: none;
+}
+.strict-menu nav ul li a
+{
+	display: block;
+	padding: 10px 20px;
+	font-size: 19px;
+	text-transform: capitalize;
+}
+.strict-menu nav ul li a:hover
+{
+	text-decoration: none;
+	background: green;
+	color: red;
+}
+.strict-banner
+{
+	background: url('../image/bannar.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 145px 0 25px;
+}
+.strict-banner .strict-banner-text
+{
+	
+}
+.strict-banner .strict-banner-text h1
+{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 9px;
+	font-size: 70px;
+	font-weight: 700;
+	padding-bottom: 30px;
+}
+.strict-banner .strict-banner-text span
+{
+	color: #fff;
+	border-top: 3px solid #15A4FA;
+	padding:30px 20px 0;
+	display: inline-block;
+	margin-bottom: 55px;
+}
+.strict-banner .strict-banner-button
+{
+	padding: 45px 0;
+
+}
+.strict-banner .strict-banner-button a
+{
+	margin-bottom: 45px;
+	color: #fff;
+
+}
+.strict-banner .strict-banner-button a:hover
+{
+
+}
+.strict-banner .strict-banner-button i
+{
+	font-size: 25px;
+	color:#fff;
+	padding:25px;
+}
+.strict-type
+{
+	background: #F6F9F9;
+	text-align: center;
+	padding: 65px;
+}
+.strict-type .strict-item h2
+{
+	margin-bottom: 25px;
+}
+.strict-service-area
+{
+	padding: 115px;
+}
+.strict-service-area .service-item
+{
+	text-align: center;
+}
+.strict-service-area .service-item h5
+{
+	font-size: 29px;
+	margin-bottom: 25px;
+}
+.strict-service-area .service-item i
+{
+	font-size: 25px;
+	background: linear-gradient(to right ,#48BAFF 50% ,#5FC3FF 50%);
+	padding: 35px 25px;
+	color: #fff;
+	margin-bottom: 45px;
+}
+.strict-service-area .service-item p
+{
+	font-size: 21px;
+}
+
+/* =-=-=-=-=-=-=- service css ends =-=-=-=-=-=-=-*/
+
+/* =-=-=-=-=-=-=- protfolio css start =-=-=-=-=-=-=-*/
+.strict-protfolio
+{
+	padding: 80px 0;
+	background: #F6F9F9;
+}
+.strict-protfolio .strict-prot-img
+{
+	position: relative;
+	margin-bottom: 10%;
+	overflow: hidden;
+}
+.strict-protfolio .strict-prot-img img
+{
+
+}
+.strict-protfolio .strict-prot-img .strict-port-overlay
+{
+	background: rgba(21,164,250,.7);
+	position: absolute;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+	top: 100%;
+	left: 100%;
+
+}
+.strict-protfolio .strict-prot-img .strict-port-overlay ul
+{
+	list-style-type: none;
+	display: flex;
+	
+}
+.strict-protfolio .strict-prot-img .strict-port-overlay ul li
+{
+	padding: 0 9px;
+}
+.strict-protfolio .strict-prot-img .strict-port-overlay ul li i
+{
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 15px;
+	border-radius: 15%;
+}
+.strict-protfolio .strict-prot-img:hover .strict-port-overlay
+{
+	top: 0;
+	left: 0;
+}
+
+
+
+/* =-=-=-=-=-=-=- protfolio css ends =-=-=-=-=-=-=-*/
+
+
+/* =-=-=-=-=-=-=- cotnact css start =-=-=-=-=-=-=-*/
+.strict-contact
+{
+	background: url(../image/contact.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.strict-contact .strict-contact-overlay
+{
+	background: rgba(47,57,80,.7);
+	padding: 55px 0;
+}
+.strict-contact .strict-sec-title h2
+{
+	color: #fff;
+}
+
+.strict-contact-form
+{
+
+}
+.strict-contact-form .form-group
+{
+
+}
+.strict-contact-form .form-group input
+{
+
+}
+.strict-contact-form .form-group textarea,.strict-contact-form .form-group input
+{
+	background: transparent;
+	border: 2px solid #999999;
+	color: #fff;
+}
+.strict-form-footer
+{
+	overflow: hidden;
+}
+.strict-form-footer .strict-form-left
+{
+	float: left;
+}
+.strict-form-footer .strict-form-left input
+{
+
+}
+.strict-form-footer .strict-form-left label
+{
+
+}
+.strict-form-footer .strict-form-right 
+{
+	float: right;
+}
+.strict-form-footer .strict-form-right input
+{
+	background: none;
+	color: #fff;
+	border: 1px solid #15a4fa;
+	padding: 9px 19px;
+}
+
+/* =-=-=-=-=-=-=- contact css ends =-=-=-=-=-=-=-*/
+/* =-=-=-=-=-=-=- footer css start =-=-=-=-=-=-=-*/
+footer
+{
+	padding: 25px 0;
+}
+footer p
+{
+
+}
+footer .strict-social-media
+{
+	overflow: hidden;
+}
+footer .strict-social-media i
+{
+	background: #5FC3FF;
+	padding: 15px;
+	color: #fff;
+}
+footer .strict-social-media ul
+{
+	display: flex;
+	float: right;
+
+}
+footer .strict-social-media li
+{
+	list-style-type: none;
+	padding: 0 9px;
+
+
+}
+
+
+/* =-=-=-=-=-=-=- footer css ends =-=-=-=-=-=-=-*/
+
+
